@@ -1,0 +1,109 @@
+* {
+  font-family: 'Inconsolata';
+}
+
+
+.nav {
+  position: absolute;
+  width: 500px;
+  height: 25px;
+  left: 77px;
+  top: 40px;
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.scarecrow {
+  position: absolute;
+  left: 5.35%;
+  right: 57.21%;
+  top: 24.54%;
+  bottom: 34.03%;
+
+}
+
+h1 {
+  position: absolute;
+  width: 300px;
+  height: 190px;
+  left: 735px;
+  top: 265px;
+  font-size: 50px;
+  font-family: 'Space Mono';
+}
+
+p {
+  position: absolute;
+  width: 381px;
+  height: 108px;
+  left: 736px;
+  top: 380px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: #4F4F4F;
+
+}
+
+button {
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 480px;
+  justify-content: center;
+}
+
+.creator {
+  position: absolute;
+width: 287px;
+height: 17px;
+left: 500px;
+top: 850px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #BDBDBD;
+}
+
+
+@media screen and (max-width: 375px) {
+
+  .nav {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 1.04;
+    text-transform: uppercase;
+    color: #333333;
+  }
+
+  .scarecrow {
+    position: absolute;
+    width: 40%;
+    left: 5%;
+    top: 15%;
+    bottom: 30%;
+  }
+}
